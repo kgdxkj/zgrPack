@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://www.mybatis.org/dtd/mybatis-3-mapper.dtd" >  
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="org.zgr.pack.dao.user.UserDao" >  
+ 
+ <!-- 查询帐号是否存在 -->                           
+ <select id="selectUserName" parameterType="string" resultType="int">  
+    select count(*) from user where username=#{userName}
+ </select>  
+ 
+ <!-- 注册新用户 --> 
+ <insert id="createUser" parameterType="java.util.Map">
+ 	insert into user (username,password) values (#{userName},#{password})
+ </insert>
+ 
+ <!-- 登陆 --> 
+ <select id="login" parameterType="java.util.Map" resultType="org.zgr.pack.entity.user.User">
+ 	select * from user where username=#{userName} and password=#{password}
+ </select>
+ 
+</mapper>

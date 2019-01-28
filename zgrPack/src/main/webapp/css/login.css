@@ -1,0 +1,243 @@
+body {
+	font-size: 12px;
+	color: #666666;
+	margin: 0px;
+	padding: 00px;
+}
+a {
+	color: #996734;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+a:hover {
+	color: #996734;
+	text-decoration: underline;
+}
+
+#box{
+	width:980px;
+	height:auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#login_buttom {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	line-height: 30px;
+	text-align: center;
+}
+#login_buttom  a {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+#login_buttom  a:hover {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#login_top {
+	height: 86px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: both;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+	height: 86px;
+	width: 300px;
+}
+/*#nav {
+	height: 33px;
+	width: 450px;
+	float: right;
+	padding-top: 53px;
+	text-align: right;
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: 33px;
+	color: #666666;
+}
+#nav a {
+	color: #333333;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #000000;
+	text-decoration: underline;
+}*/
+
+#wrapMenu {
+	height: 30px;
+	background-image: url(images/menuBack.jpg);
+	background-repeat: repeat-x;
+}
+
+#wrapMenu #MenuLeft {
+	float: left;
+	height: 30px;
+	width: 780px;
+	line-height: 30px;
+}
+
+#wrapMenu #MenuLeft a {
+	height: 30px;
+	line-height: 30px;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	float: left;
+	padding-left: 20px;
+}
+
+#wrapMenu #MenuLeft a:hover {
+	color: #C29C3B;
+	text-decoration: none;
+}
+
+#wrapMenu #MenuLeft a.cur  {
+	color: #C29C3B;
+	text-decoration: none;
+}
+#wrapMenu #MenuLeft a span {
+	float: left;
+	padding-left: 25px;
+}
+#wrapMenu #MenuLeft img {
+	float: right;
+	padding-top: 3px;
+	padding-right: 5px;
+}
+#wrapMenu #Menuright {
+	float: right;
+	height: 30px;
+	width: 180px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 30px;
+	color: #9F9F9F;
+	font-size: 12px;
+}
+#wrapMenu #Menuright a {
+	font-size: 12px;
+	color: #EFEEEE;
+	text-decoration: none;
+}
+#wrapMenu #Menuright a:hover {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+#login_box {
+	height: 432px;
+	width: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 1px solid #E1E1E1;
+	padding: 12px;
+}
+#login_left {
+	float: left;
+	height: 409px;
+	width: 420px;
+	padding-left: 52px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E1E1E1;
+}
+#reg_right {
+	float: left;
+	height: 409px;
+	width: 440px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 37px;
+}
+form {
+	margin: 00px;
+	padding: 0px;
+}
+.clear {
+	clear: both;
+}
+.inputBg {
+	margin: 0px;
+	padding: 0px;
+	height: 24px;
+	line-height:24px;
+	border: 1px solid #E1E1E1;
+}
+#username {
+	width: 180px;
+}
+#password1,#conform_password {
+	width: 158px;
+}
+#captcha {
+	width: 60px;
+}
+.us_Submit{
+	border:none;
+	width:113px;
+	height:35px;
+	background:url(images/bnt_ur_log.gif);
+	cursor: hand;
+}
+.us_Submit_reg{border:none; width:113px; height:35px; background:url(images/bnt_ur_reg.gif);}
+#getpass {
+	height: 300px;
+	padding-top: 60px;
+	padding-right: 46px;
+	padding-bottom: 29px;
+	padding-left: 62px;
+	margin: 0px;
+	overflow: hidden;
+}
+#getpass h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 18px;
+}
+
+#getpass #email {
+	height: 25px;
+}
+#getpass .bnt_blue_1 {
+	background-image: url(images/getpass_bt.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 30px;
+	width: 120px;
+	color: #9A9A9A;
+}
+#getpass .emailfont {
+	color: #999999;
+}

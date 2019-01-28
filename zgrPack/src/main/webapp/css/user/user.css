@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+.blank10{
+	height:10px; line-height:5px;/* _margin:-3px 0;*/ clear:both; visibility:hidden;
+}
+.ur_here{
+	line-height:40px;
+	text-align:left;
+}
+
+.clearfix:after{content:"."; display:block; height:0; clear:both;visibility:hidden;}
+*html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+
+/*属性筛选*/	
+  .attrbox h2{
+	height:50px;
+	font-size:14px;
+	padding-left:10px;
+	/*background-color:#34332f;
+	color:#fff;	*/
+	background:url(../images/user/usermenutop.jpg);
+	}
+	.attrbox .attrcontent{
+	background:#fff;
+	margin:0 3px 3px;
+	padding:10px;
+	}
+	.attrbox .screeBox{
+	border-bottom:1px solid #ddd;
+	padding:8px 0;
+	}	
+
+.attrbox .screeBox h3{ background:url(images/sx.gif) no-repeat right; margin-right:9px; float:left; height:32px; line-height:32px;}
+.attrbox .screeBox h3 span{ background:url(images/sxl.gif) no-repeat left; text-align:center; height:32px; padding:10px;}
+.attrbox .screeBox p{ line-height:22px; padding-top:4px;}
+.attrbox .screeBox p span {background:#e2e0e0;padding:5px 7px;color:#000;font-weight:bold;}
+
+.EarLeft{ width:195px;}
+.EarRight{ width:787px;}
+.EarRight_goods{ width:1000px;}
+
+.userMenu{
+margin-left:0px;
+}
+.userMenu li{
+margin:0px;
+height:20px;
+width:190px;
+padding:10px 0px;
+}
+.userMenu li a.curs{
+font-weight:bold;
+}
+
+.fl{float:left; width:200px}
+.fr{float:right; width:750px}
+
+.us_contentBox{
+border:1px solid #d8d8d8;
+border-top:2px solid #cc4124;
+padding:10px;
+margin-bottom:8px;
+}
+.us_notice{
+border:1px solid #cdcbcb;
+background:#edecec;
+padding:10px;
+text-indent:20px;
+margin:10px 0;
+}
+.default{
+padding:20px;
+line-height:24px;
+min-height:345px;
+_height:345px;
+}
+
+/*用户个人信息*/
+.CarTitle{
+background:#747371;
+line-height:28px;
+height:28px;
+padding-left:10px;
+}
+.f14b{
+font-weight:bold;
+font-size:14px;
+}
+#userEdit td,#passwordEdit td,#address td{
+	padding:5px;
+}
+.bnt_number2,.bnt_number4,.bnt_number6,.bnt_number8,.bnt_number10,.go{
+border:none;
+text-align:center;
+font-weight:100;
+color:#fff;
+height:18px;
+cursor:pointer;
+}
+.bnt_number4{
+width:83px;
+background:url(../images/tit.gif) no-repeat 0 -54px;
+}

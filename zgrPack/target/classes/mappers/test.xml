@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://www.mybatis.org/dtd/mybatis-3-mapper.dtd" >  
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="org.zgr.pack.dao.test.ITestDao" >  
+ 
+ <!-- 查询某id数据 -->                           
+ <select id="selectTestById" parameterType="string" resultType="org.zgr.pack.entity.test.TestEntity">  
+    select * from test where id=#{id}
+ </select>  
+ 
+ 
+ 
+</mapper>
